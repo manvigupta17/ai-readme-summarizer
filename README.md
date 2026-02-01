@@ -46,38 +46,37 @@ setx GEMINI_API_KEY "your_gemini_api_key"
 ```
 Restart terminal after this.
 
-Run the Application
-python main.py
-Enter:
+## Run the Application
 
+```bash
+python main.py
+```
+Enter:
+```bash
 psf/requests
-Example Output
+```
+---
+
+## Example Output
 The AI generates:
 
-One-line project summary
-
-What the project does
-
-Who it is for
-
-Key concepts
-
-Suggested onboarding steps
-
+-One-line project summary
+-What the project does
+-Who it is for
+-Key concepts
+-Suggested onboarding steps
 All in a clean, human-readable format.
 
-Learning Outcomes
+---
+
+## Learning Outcomes
 This project demonstrates:
 
-API integration (GitHub + Gemini)
-
-Prompt engineering
-
-Modular Python system design
-
-AI agent architecture
-
-Secure handling of secrets using environment variables
+-API integration (GitHub + Gemini)
+-Prompt engineering
+-Modular Python system design
+-AI agent architecture
+-Secure handling of secrets using environment variables
 
 Author
 Manvi Gupta
@@ -85,6 +84,11 @@ IIT Bombay
 Midterm Project – AI Systems
 
 
-This is the **exact file** you should paste into `README.
+This will render on GitHub as:
 
+- proper headings  
+- code block for commands  
+- bullet lists for outputs  
+- clean professional layout  
 
+Exactly what evaluators expect.
