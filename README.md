@@ -30,6 +30,7 @@ main.py -> CLI entry point
 ```bash
 git clone <your-repo-link>
 cd ai-guided-tour-agent
+```
 2. Create virtual environment
 python -m venv .venv
 .venv\Scripts\Activate
@@ -97,3 +98,4 @@ This README is:
 - portfolio-ready
 
 If someone clones your repo and follows this README, your project will **run perfectly on their machine** — that’s exactly what a good engineering README is supposed to do.
+
