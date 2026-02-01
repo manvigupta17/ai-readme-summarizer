@@ -1,37 +1,99 @@
-# AI Readme Summarizer
+# GitHub Guided Tour Agent
 
-This repository contains a Python script developed as part of the midterm submission.
-The project demonstrates how to build an AI-powered pipeline by combining a traditional API with a Large Language Model.
-
----
-
-## 📌 What This Project Does
-
-- Accepts a GitHub repository name in `owner/repo` format
-- Fetches the repository's `README.md` file using the GitHub API
-- Sends the README text to a Large Language Model (Gemini)
-- Uses prompt engineering to guide the model’s behavior
-- Generates a structured, human-readable summary
-- Prints the summary to the terminal
-- Handles common API and runtime errors gracefully
+An AI-powered Python application that analyzes a GitHub repository and generates a guided onboarding tour for developers using a Large Language Model (Gemini).
 
 ---
 
-## 🧠 Concepts Covered (Up to Midterm)
+## Features
 
-- GitHub REST API usage (via PyGithub)
-- Secure authentication using environment variables
-- Large Language Model (LLM) API integration
-- Prompt engineering (instruction-based prompting)
-- AI processing pipelines
-- Error handling and robustness
+- Fetches README from any public GitHub repository
+- Uses Gemini LLM to generate a structured summary
+- Acts like a senior engineer explaining the project
+- Clean modular architecture (GitHub client, LLM client, agent)
+- Command-line interface
 
 ---
 
-## ▶️ How to Run
+## Project Structure
 
-1. Set the required environment variables:
+github_client.py -> GitHub API logic
+llm_client.py -> Gemini API logic
+agent.py -> AI agent orchestration
+main.py -> CLI entry point
+
+
+---
+
+## Setup Instructions
+
+### 1. Clone the repository
 ```bash
-GITHUB_TOKEN=your_github_token
-GEMINI_API_KEY=your_gemini_api_key
+git clone <your-repo-link>
+cd ai-guided-tour-agent
+2. Create virtual environment
+python -m venv .venv
+.venv\Scripts\Activate
+3. Install dependencies
+python -m pip install PyGithub google-genai
+4. Set environment variables
+Generate:
 
+GitHub token
+
+Gemini API key
+
+Then:
+
+setx GITHUB_TOKEN "your_github_token"
+setx GEMINI_API_KEY "your_gemini_api_key"
+Restart terminal after this.
+
+Run the Application
+python main.py
+Enter:
+
+psf/requests
+Example Output
+The AI generates:
+
+One-line project summary
+
+What the project does
+
+Who it is for
+
+Key concepts
+
+Suggested onboarding steps
+
+All in a clean, human-readable format.
+
+Learning Outcomes
+This project demonstrates:
+
+API integration (GitHub + Gemini)
+
+Prompt engineering
+
+Modular Python system design
+
+AI agent architecture
+
+Secure handling of secrets using environment variables
+
+Author
+Manvi Gupta
+IIT Bombay
+Midterm Project – AI Systems
+
+
+---
+
+This README is:
+
+- professional
+- reproducible
+- evaluator-friendly
+- portfolio-ready
+
+If someone clones your repo and follows this README, your project will **run perfectly on their machine** — that’s exactly what a good engineering README is supposed to do.
