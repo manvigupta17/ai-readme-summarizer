@@ -6,11 +6,11 @@ An AI-powered Python application that analyzes a GitHub repository and generates
 
 ## Features
 
-- Fetches README from any public GitHub repository
-- Uses Gemini LLM to generate a structured summary
-- Acts like a senior engineer explaining the project
-- Clean modular architecture (GitHub client, LLM client, agent)
-- Command-line interface
+- Fetches README from any public GitHub repository  
+- Uses Gemini LLM to generate a structured summary  
+- Acts like a senior engineer explaining the project  
+- Clean modular architecture (GitHub client, LLM client, agent)  
+- Command-line interface  
 
 ---
 
@@ -31,22 +31,20 @@ main.py -> CLI entry point
 git clone <your-repo-link>
 cd ai-guided-tour-agent
 ```
-2. Create virtual environment
+###2. Create virtual environment
+```bash
 python -m venv .venv
 .venv\Scripts\Activate
-3. Install dependencies
+```
+###3. Install dependencies
+```bash
 python -m pip install PyGithub google-genai
-4. Set environment variables
-Generate:
-
-GitHub token
-
-Gemini API key
-
-Then:
-
+```
+###4. Set environment variables
+```bash
 setx GITHUB_TOKEN "your_github_token"
 setx GEMINI_API_KEY "your_gemini_api_key"
+```
 Restart terminal after this.
 
 Run the Application
@@ -88,14 +86,4 @@ IIT Bombay
 Midterm Project – AI Systems
 
 
----
-
-This README is:
-
-- professional
-- reproducible
-- evaluator-friendly
-- portfolio-ready
-
-If someone clones your repo and follows this README, your project will **run perfectly on their machine** — that’s exactly what a good engineering README is supposed to do.
-
+This is the **exact file** you should paste into `README.
