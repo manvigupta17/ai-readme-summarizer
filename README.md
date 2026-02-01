@@ -28,7 +28,7 @@ An AI-powered Python application that analyzes a GitHub repository and generates
 ### 1. Clone the repository
 ```bash
 git clone <your-repo-link>
-cd ai-guided-tour-agent
+cd GitHub-Guided-Tour-Agent
 ```
 ### 2. Create virtual environment
 ```bash
@@ -78,6 +78,7 @@ This project demonstrates:
 - Modular Python system design
 - AI agent architecture
 - Secure handling of secrets using environment variables
+
 
 
 
