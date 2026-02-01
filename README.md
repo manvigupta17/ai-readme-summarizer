@@ -16,11 +16,10 @@ An AI-powered Python application that analyzes a GitHub repository and generates
 
 ## Project Structure
 
-github_client.py -> GitHub API logic
-llm_client.py -> Gemini API logic
-agent.py -> AI agent orchestration
-main.py -> CLI entry point
-
+- github_client.py -> GitHub API logic  
+- llm_client.py -> Gemini API logic  
+- agent.py -> AI agent orchestration  
+- main.py -> CLI entry point  
 
 ---
 
@@ -87,4 +86,5 @@ Midterm Project – AI Systems
 
 
 This is the **exact file** you should paste into `README.
+
 
