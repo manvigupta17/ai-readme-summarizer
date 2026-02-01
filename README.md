@@ -65,6 +65,7 @@ The AI generates:
 - Who it is for
 - Key concepts
 - Suggested onboarding steps
+  
 All in a clean, human-readable format.
 
 ---
@@ -78,18 +79,7 @@ This project demonstrates:
 - AI agent architecture
 - Secure handling of secrets using environment variables
 
-Author
-Manvi Gupta
-IIT Bombay
-Midterm Project – AI Systems
 
 
-This will render on GitHub as:
 
-- proper headings  
-- code block for commands  
-- bullet lists for outputs  
-- clean professional layout  
-
-Exactly what evaluators expect.
 
