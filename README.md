@@ -31,16 +31,16 @@ main.py -> CLI entry point
 git clone <your-repo-link>
 cd ai-guided-tour-agent
 ```
-###2. Create virtual environment
+### 2. Create virtual environment
 ```bash
 python -m venv .venv
 .venv\Scripts\Activate
 ```
-###3. Install dependencies
+### 3. Install dependencies
 ```bash
 python -m pip install PyGithub google-genai
 ```
-###4. Set environment variables
+### 4. Set environment variables
 ```bash
 setx GITHUB_TOKEN "your_github_token"
 setx GEMINI_API_KEY "your_gemini_api_key"
@@ -87,3 +87,4 @@ Midterm Project – AI Systems
 
 
 This is the **exact file** you should paste into `README.
+
