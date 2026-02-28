@@ -57,6 +57,21 @@ psf/requests
 ```
 ---
 
+## Streamlit Web Interface
+
+This project now includes a Streamlit-based web UI.
+
+To run the web app locally:
+
+```bash
+streamlit run streamlit_app.py
+```
+Then open 
+```bash
+http://localhost:8501
+```
+---
+
 ## Example Output
 The AI generates:
 
@@ -78,6 +93,7 @@ This project demonstrates:
 - Modular Python system design
 - AI agent architecture
 - Secure handling of secrets using environment variables
+
 
 
 
